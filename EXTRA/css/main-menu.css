@@ -1,0 +1,48 @@
+.panel-primary{
+	border-color: #0288d1;
+}
+
+.panel-primary .panel-heading{
+	background-color: #0288d1;
+}
+#main-header{
+	top: 0;	
+  	width: 100%;
+  	background-color: #0288d1;
+  	z-index: 99;
+  	/*color: #fff;*/
+}
+
+#main-logo img{
+	width: 100px;
+}
+
+#main-menu #dropdown-main{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#main-menu #dropdown-main:hover,
+#main-menu #dropdown-main:focus{
+	color: #000;
+}
+
+.nav .dropdown:hover,
+.nav .dropdown:focus{
+	color: #000;
+}
+
+
+/* ------------------------------
+
+   @MEDIA QUERY
+ 
+--------------------------------- */
+@media screen and (max-width:800px ) {
+	#main-menu{
+		display: none;
+	}
+	#main-logo img{
+		text-align: right;
+	}
+}
